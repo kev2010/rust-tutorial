@@ -1,0 +1,9 @@
+# Ignore target directories in all subdirectories
+**/target/
+
+# Ignore Cargo.lock for libraries, but not for binaries
+# If this is a library, uncomment the following line:
+# **/Cargo.lock
+
+# Ignore backup files for Rust source files
+**/*.rs.bk
